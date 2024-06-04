@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    font-family: 'work Sans';
+    margin: 0;
+    padding: 0;
+}
+html{
+    /*me permite deslizar cuando cuabndo hago clic en los links menu*/
+    scroll-behavior: smooth;
+}
+/*MENU*/
+.contenedor-herader{
+    background-color: rgb(52, 81, 241);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.contenedor-herader header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.contenedor-herader header .logo a{
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+}
+.contenedor-herader header ul{
+    display: flex;
+    list-style: none;
+}
+.contenedor-herader header nav ul li a{
+    text-align: none ;
+    color: rgb(248, 246, 246);
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+.contenedor-herader header nav ul li a{
+    color: rgb(250, 248, 248);
+
+}
+.responsive{
+    background-color: black;
+    color: rgb(89, 148, 34);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+/*INICIO DE SECCION FOTO*/
+.inicio{
+    background: linear-gradient(to top,rgb(123, 208, 247), rgb(106, 90, 230) );
+
+}
