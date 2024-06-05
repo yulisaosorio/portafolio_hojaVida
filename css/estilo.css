@@ -1,8 +1,8 @@
 *{
     box-sizing: border-box;
     font-family: 'work Sans';
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 html{
     /*me permite deslizar cuando cuabndo hago clic en los links menu*/
@@ -83,6 +83,53 @@ html{
 }
 .inicio .contenedor-inicio-foto h1{
     margin-top: 5px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'righteous';
+    color: white;
+}
+.inicio .contenedor-inicio-foto h2{
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+}
+.inicio .contenedor-inicio-foto .redes a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+.inicio .contenedor-inicio-foto .redes a:hover{
+    background-color: rgb(198, 241, 241);
+}
+.sobremi{
+    background-color: rgb(167, 219, 240);
+    color: white;
+    padding: 50px 20px;
+}
+.sobremi .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.sobremi h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+
+}
+.sobremi .contenido-seccion p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.sobremi .contenido-seccion p span{
+    color: black;
+    font-weight: bold;
 }
