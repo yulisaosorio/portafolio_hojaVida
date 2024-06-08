@@ -65,6 +65,7 @@ html{
     color: rgb(29, 26, 26);
     display: flex;
     text-align: center;
+    padding: 90px;
 }
 .inicio .contenedor-inicio-foto{
     padding: 20px;
@@ -217,3 +218,88 @@ html{
 .sobremi button:hover .overlay{
     width: 100%;
 }
+/* CONTENEDOR DE HABILIDADES*/
+.habilidades{
+    background: white;
+    color: rgb(29, 26, 26);
+    padding: 5px 10px;
+}
+.habilidades .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.habilidades h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.habilidades .fila{
+    display: flex;
+}
+.habilidades .fila .col{
+    width: 50%;
+    padding: 0 20px;
+}
+.habilidades .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.habilidades .habilida > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+.habilidades .habilida .barra-habilidades{
+    height: 8px;
+    width: 80%;
+    background: rgb(239, 239, 247);
+    position: relative;
+    margin-bottom: 30px;
+}
+.habilidades .habilida .progreso{
+    background-color: rgb(239, 239, 247);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+.habilidades .habilida .barra-habilidades span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: linear-gradient(to top,rgb(91, 230, 248), rgb(151, 141, 224) );
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+}
+/*ESTAS CLASES SE HAGREGAN DINAMICAMNETE CON JS */
+.habilidades .habilida .php{
+    width: 0%;
+    animation: 2s php forwards;
+}
+@keyframes php{
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.habilidades .habilida .python{
+    width: 0%;
+    animation: 2s python forwards;
+}
+@keyframes python{
+    0%{width: 0%;}
+    100%{width: 30%;}
+}
+.habilidades .habilida .javascript{
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+@keyframes javascript{
+    0%{width: 0%;}
+    100%{width: 40%;}
+}
+
