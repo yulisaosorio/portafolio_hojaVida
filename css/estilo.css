@@ -59,13 +59,14 @@ html{
 
 /*CONTENEDOR CON FOTO DATOS Y REDES SOCIALES*/
 .inicio{
-    background: white,url(fotos/foto.jpg);
+    background: rgb(239, 239, 247);
     background-size: cover;
     height: 100vh;
     color: rgb(29, 26, 26);
     display: flex;
     text-align: center;
     padding: 90px;
+    /*,url(fotos/foto.jpg) va en el background*/
 }
 .inicio .contenedor-inicio-foto{
     padding: 20px;
@@ -220,7 +221,7 @@ html{
 }
 /* CONTENEDOR DE HABILIDADES*/
 .habilidades{
-    background: white;
+    background: rgb(239, 239, 247);
     color: rgb(29, 26, 26);
     padding: 5px 10px;
 }
@@ -294,6 +295,14 @@ html{
     0%{width: 0%;}
     100%{width: 30%;}
 }
+.habilidades .habilida .htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+@keyframes htmlcss{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
 .habilidades .habilida .javascript{
     width: 0%;
     animation: 2s javascript forwards;
@@ -301,5 +310,114 @@ html{
 @keyframes javascript{
     0%{width: 0%;}
     100%{width: 40%;}
+}
+.habilidades .habilida .bootstrap{
+    width: 0%;
+    animation: 2s bootstrap forwards;
+}
+@keyframes bootstrap{
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.habilidades .habilida .mysql{
+    width: 0%;
+    animation: 2s mysql forwards;
+}
+@keyframes mysql{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.habilidades .habilida .sqlserver{
+    width: 0%;
+    animation: 2s sqlserver forwards;
+}
+@keyframes sqlserver{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.habilidades .habilida .git{
+    width: 0%;
+    animation: 2s git forwards;
+}
+@keyframes git{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.habilidades .habilida .github{
+    width: 0%;
+    animation: 2s github forwards;
+}
+@keyframes github{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.habilidades .habilida .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion{
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.habilidades .habilida .trabajoequipo{
+    width: 0%;
+    animation: 2s trabajoequipo forwards;
+}
+@keyframes trabajoequipo{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.habilidades .habilida .disciplina{
+    width: 0%;
+    animation: 2s disciplina forwards;
+}
+@keyframes disciplina{
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+.habilidades .habilida .aprendizaje{
+    width: 0%;
+    animation: 2s aprendizaje forwards;
+}
+@keyframes aprendizaje{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.habilidades .habilida .creativa{
+    width: 0%;
+    animation: 2s creativa forwards;
+}
+@keyframes creativa{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.habilidades .habilida .autodidacta{
+    width: 0%;
+    animation: 2s autodidacta forwards;
+}
+@keyframes autodidacta{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+/*CONTENEDOR CURRICULUM*/
+
+.curriculum{
+    background: linear-gradient(to top,rgb(123, 208, 247), rgb(106, 90, 230));
+    color: rgb(29, 26, 26);
+    padding: 5px 10px;
+}
+.curriculum .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.curriculum h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.curriculum .fila{
+    display: flex;
 }
 
