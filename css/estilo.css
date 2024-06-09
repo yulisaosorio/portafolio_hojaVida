@@ -419,6 +419,7 @@ html{
 }
 .curriculum .fila{
     display: flex;
+    justify-content: space-between;
 }
 .curriculum .fila .col{
     width: 49%;
@@ -466,4 +467,42 @@ html{
 .curriculum .fila .dere{
     border-right: 2px solid black;
     margin-right: 20px;
+}
+.curriculum .fila .item .conectori{
+    height: 2px;
+    background-color: black;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    right: -47px;
+    z-index: 5;
+}
+.curriculum .fila .item .conectori .circuloi{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+.curriculum .fila .item .conectord{
+    height: 2px;
+    background-color: black;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    z-index: 5;
+}
+.curriculum .fila .item .conectori .circulod{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+    float: right;
+    position: relative;
+    bottom: 4px;
 }
