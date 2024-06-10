@@ -564,3 +564,51 @@ html{
 .portafolio .galeria .proyecto .overlay:hover h3{
     margin-bottom: 0px;
 }
+
+/*PIE DE PAGINA*/
+footer{
+    background:linear-gradient(to top,rgb(91, 230, 248), rgb(151, 141, 224) );
+    color: black;
+    padding: 5px 0 5px 0;
+    position: relative;
+    width: 100%;
+}
+footer .redesdos{
+    margin-bottom: 0px;
+    justify-content: center;
+    text-align: center;
+}
+footer .redesdos a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius:100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+    text-align: center;
+}
+footer .redesdos a:hover{
+    background-color:  rgb(91, 101, 238);
+}
+footer .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background:linear-gradient(to top,rgb(91, 230, 248), rgb(151, 141, 224) );
+    color: rgb(33, 37, 33);
+    position:absolute ;
+    left: 50%;
+    transform:translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    border: 2px solid rgb(48, 43, 43);
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+}
+
